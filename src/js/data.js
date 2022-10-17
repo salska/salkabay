@@ -98,7 +98,7 @@ export const data = [
           </li>
           <li>
             <h3>My CV</h3>
-            <a href="http://bit.ly/chicgeek-cv">Laura Kishimoto</a>
+            <a href="https://tinyurl.com/sal-kabay-cv">Sal Kabay</a>
           </li>
         </ul>
       </Fragment>
@@ -115,24 +115,24 @@ export const data = [
       <Fragment>
         <ul>
           <li>
-            <a href="https://www.twitter.com/chicgeek">chicgeek on Twitter</a>
+            <a href="https://twitter.com/emetrix">Twitter</a>
           </li>
           <li>
-            <a rel="me" href="https://mastodon.social/@chicgeek">
-              chicgeek on Mastodon.social
+            <a rel="me" href="https://www.youtube.com/channel/UCN1jxDRBU9tz1H3HyoARoaQ">
+              YouTube
             </a>
           </li>
           <li>
-            <a href="https://www.github.com/chicgeek">chicgeek on Github</a>
+            <a href="https://github.com/salska">Github</a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/chicgeek">
-              chicgeek on LinkedIn
+            <a href="https://www.linkedin.com/in/salkabay/">
+                <img src={ require('./li.jpeg')} width={33} height={40}/>
             </a>
           </li>
           <li>
-            <a href="mailto:laura@chicgeek.uk?subject=An email from chicgeek.uk">
-              Email me at laura@chicgeek.uk
+            <a href="mailto:sal@emetrix.biz?subject=An email from salkabay.com">
+              Email me at sal@emetrix.biz
             </a>
           </li>
         </ul>
