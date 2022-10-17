@@ -1,0 +1,172 @@
+// in case I want to change names
+$section: 'section';
+
+.#{$section} {
+  position: relative;
+  margin: $space/2 auto;
+  color: $color-primary;
+  font-size: 16px;
+  opacity: 0.8;
+  transition: opacity $transition;
+
+  // section colours
+  @for $i from 2 through 10 {
+    $section-color: desaturate(
+      adjust-hue($color-primary, percentage($i * $i * 0.01)),
+      percentage($i * 0.03)
+    );
+
+    &:nth-of-type(#{$i}) {
+      color: $section-color;
+
+      a:focus {
+        color: $section-color;
+      }
+    }
+  }
+
+  &:hover,
+  &:focus,
+  &:focus-within {
+    opacity: 1;
+  }
+
+  &__heading {
+    &:after {
+      content: "";
+      display: block;
+      width: 0;
+      margin: 0 auto;
+      border: 0px solid transparent;
+      border-bottom-color: currentColor;
+      transition: border-width $transition $transition;
+    }
+
+    .#{$section}:focus &:after,
+    .#{$section}:focus-within &:after {
+      border-width: $space/2 $space $space;
+      transition: border-width $transition;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    @media (min-width: $bp-medium) {
+      &:after {
+        position: absolute;
+        right: -2 * $space;
+        top: 50%;
+        border-color: transparent;
+        border-right-color: currentColor;
+        transform: translateY(-50%);
+      }
+
+      .#{$section}:focus &:after,
+      .#{$section}:focus-within &:after {
+        border-width: $space;
+        transition: border-width $transition;
+      }
+    }
+
+    @media (min-width: $bp-large) {
+      :nth-of-type(2n) > &:after {
+        right: auto;
+        left: -2 * $space;
+        border-color: transparent;
+        border-left-color: currentColor;
+      }
+    }
+  }
+
+  &__content {
+    position: relative;
+    max-height: 0;
+    margin: 0 calc(50% - 50vw);
+    padding: 0 $space;
+    width: 100vw;
+    background-color: currentColor;
+    text-align: center;
+    transition: max-height $transition-slow, margin-bottom $transition-slow;
+    overflow: hidden;
+
+    .#{$section}:focus > &,
+    .#{$section}:focus-within > & {
+      max-height: 470px;
+      margin-bottom: $space;
+    }
+
+    > * {
+      position: relative;
+      color: $color-white;
+      max-width: $content-width * 2;
+      margin: $space/2 auto;
+
+      &:first-child {
+        margin-top: 0;
+        padding-top: $space * 1.5;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+        padding-bottom: $space * 1.5;
+      }
+    }
+
+    @media (min-width: $bp-medium) {
+      position: absolute;
+      top: 50%;
+      left: calc(100% + #{$space}* 2);
+      width: calc((100vw - #{$content-width} - #{$space}* 5));
+      margin: initial;
+      padding: 0 $space * 2;
+      text-align: left;
+      transform: translateY(-50%);
+
+      .#{$section}:focus-within & {
+        display: block;
+      }
+
+      > * {
+        margin-left: 0;
+
+        &:first-child {
+          padding-top: $space;
+        }
+
+        &:last-child {
+          padding-bottom: $space;
+        }
+      }
+
+      &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: calc(100% + #{$space});
+        width: 50px;
+        height: 50px;
+        border: 0px solid red;
+        border-width: 0 $space $space;
+        border-right-color: red;
+        z-index: 100;
+      }
+    }
+
+    @media (min-width: $bp-large) {
+      width: calc((100vw - #{$content-width} - #{$space}* 4) / 2);
+
+      :nth-of-type(2n) > & {
+        left: auto;
+        right: calc(100% + #{$space}* 2);
+        text-align: right;
+
+        > * {
+          margin-right: 0;
+          margin-left: auto;
+        }
+      }
+    }
+  }
+}

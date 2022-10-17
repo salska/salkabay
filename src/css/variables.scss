@@ -1,0 +1,23 @@
+// colours
+$color-primary: #006363;
+$color-grey: #666;
+$color-white: #fff;
+
+// space
+$space: 2rem;
+$content-width: 25rem;
+$content-outset: $space;
+
+// breakpoints
+$bp-small: 320px;
+$bp-medium: $bp-small * 2.1;
+$bp-large: $bp-small * 3;
+
+// transitions
+$transition: 0.25s;
+$transition-fast: $transition / 2;
+$transition-slow: $transition * 2;
+
+// brace settings
+$brace-color: $color-grey;
+$brace-size: 2rem;

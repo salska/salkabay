@@ -1,0 +1,28 @@
+:root {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+h1,
+h2 {
+  margin: 0 auto;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
+}

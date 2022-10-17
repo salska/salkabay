@@ -1,0 +1,79 @@
+@media (prefers-color-scheme: dark) {
+  $color-background: darken($color-grey, 30%);
+  $color-light: lighten($color-grey, 30%);
+  $color-dark: darken($color-grey, 26%);
+  $color-primary-light: desaturate(lighten($color-primary, 30%), 50%);
+
+  html {
+    color: $color-light;
+    background-color: $color-background;
+  }
+
+  a {
+    text-decoration: underline currentColor;
+
+    &:focus {
+      background-color: $color-light;
+      outline: 1px solid $color-light;
+    }
+  }
+
+  .brace {
+    color: $color-light;
+  }
+
+  .heading {
+    // explicit for contrast checkers
+    background-color: $color-background;
+  }
+
+  .section {
+    color: $color-primary-light;
+
+    @for $i from 2 through 10 {
+      $section-color: desaturate(
+        adjust-hue($color-primary-light, percentage($i * $i * 0.015)),
+        percentage($i * 0.015)
+      );
+
+      &:nth-of-type(#{$i}) {
+        color: $section-color;
+
+        a:focus {
+          // override light theme
+          color: $color-dark;
+        }
+      }
+    }
+
+    &__heading {
+
+      &:after {
+        border-bottom-color: $color-dark;
+      }
+
+      @media (min-width: $bp-medium) {
+        &:after {
+          border-color: transparent;
+          border-right-color: $color-dark;
+        }
+      }
+
+      @media (min-width: $bp-large) {
+        :nth-of-type(2n) > &:after {
+          border-color: transparent;
+          border-left-color: $color-dark;
+        }
+      }
+    }
+
+    &__content {
+      background-color: $color-dark;
+      color: $color-light;
+
+      > * {
+        color: inherit;
+      }
+    }
+  }
+}
