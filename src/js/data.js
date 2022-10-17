@@ -32,11 +32,11 @@ export const data = [
       <Fragment>
         <h3>User-centric approach</h3>
         <p>
-          I focus on the intersection of user need, client demand, and technical limitation. I prioritise user experience, accessibility, and maintainability in my work.
+          I focus on the intersection of user need, client demand, and technical limitation. I prioritise user experience, high performance design and domain centric design.
         </p>
         <h3>Technologies and approaches</h3>
         <p>
-          I work with my teams on modern architectures to deliver beautiful and efficient websites using HTML, CSS, JavaScript. I guide our component-driven approaches, ensuring quality code, modularity, and maintainability.
+          I work with my teams on modern architectures to deliver beautiful and efficient business process automation solutions using Java, React and Microservices. I implement component-driven solutions that are integrated and devops enabled - ensuring quality code, modularity, and maintainability.
         </p>
       </Fragment>
     )
@@ -50,18 +50,14 @@ export const data = [
     ),
     content: (
       <Fragment>
-        <h3>Leader and mentor</h3>
+        <h3>Collaborative</h3>
         <p>
-          I am a reliable and trusted member of any team. I earn the respect of my coworkers through leadership and enabling and empowering others to do their best. I am an empathetic and supportive manager, guiding individuals and entire teams to learn, share, and become more efficient.
+          I am a reliable and trusted member of any team. I earn the respect of my coworkers through leadership and enabling and empowering others to do their best. I am collaborative and results driven.
         </p>
-        <h3>Culture and community</h3>
+        <h3>Focused</h3>
         <p>
-          I strive to create and encourage a safe and inclusive work environment for everyone. Outside of work, I organise{" "}
-          <a href="https://twitter.com/frontendsheff">
-            Front&nbsp;End Sheffield
-          </a>
-          , <a href="https://twitter.com/frontendnorth">Front&nbsp;End North</a>
-          , and have previously organised Sheffield&nbsp;JS.
+          I thrive to unlock paralysis, provide clarity by simplifying complexity and enthuse others to overcome conflict. Every client is unique and every
+            assignment has a set of challenges that requires fresh, agile and informed thinking.
         </p>
       </Fragment>
     )
@@ -81,8 +77,8 @@ export const data = [
               <a href="https://www.morrisons-corporate.com/">Morrisons PLC</a>
             </h3>
             Camunda Architect & Lead Developer - Confidential Strategic Projects
-            (2021&bsp;&#8209;&nbsp;present)
-          </li>n
+            (2021&nbsp;&#8209;&nbsp;present)
+          </li>
           <li>
             <h3>
               <a href="https://www.natwest.com//">Natwest</a>
@@ -94,7 +90,8 @@ export const data = [
             <h3>
               <a href="https://www.prudentialplc.com/">Prudential</a>
             </h3>
-              Technical Programme Manager – Digital Availability & Content Management System Migration (2016&nbsp;&#8209;&nbsp;2017)
+              Technical Programme Manager – Digital Availability & Content Management System Migration
+              (2016&nbsp;&#8209;&nbsp;2017)
           </li>
           <li>
             <h3>My CV</h3>
