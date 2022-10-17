@@ -10,9 +10,10 @@ export const data = [
     ),
     content: (
       <Fragment>
+        <img src={ require('./salkabay.jpeg')} width={133} height={133}/>
         <h3>About me</h3>
         <p>
-          I am an engineer and technologist with over 20 years of experience. In addition to being a technical authority, I am a leader of people and advocate for inclusive work cultures.
+          I am an engineer and technologist with over 20 years of experience. In addition to being a technical authority. My skills are in strategy, architecture, development, systems integration and technical delivery.
         </p>
         <p>
           I live in Edinburgh&nbsp;UK. I have a PhD in Engineering and enjoy software engineering and clean design, running, cycling and gym work.
