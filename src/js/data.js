@@ -15,7 +15,7 @@ export const data = [
           I am an engineer and technologist with over 20 years of experience. In addition to being a technical authority, I am a leader of people and advocate for inclusive work cultures.
         </p>
         <p>
-          I'm a Canadian living and working in Sheffield&nbsp;UK. I have an MA in vocal music and love design, the outdoors, games, and red pandas.
+          I live in Edinburgh&nbsp;UK. I have a PhD in Engineering and enjoy software engineering and clean design, running, cycling and gym work.
         </p>
       </Fragment>
     )
