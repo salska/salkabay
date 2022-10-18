@@ -8,10 +8,16 @@ export const data = [
           <img src={ require('./salkabay.jpeg')} width={173} height={173}/>
       </Fragment>
     ),
-    content: (
-      <Fragment>
-      </Fragment>
-    )
+      content: (
+          <Fragment>
+              <p>
+                 07871 6331198
+              </p>
+              <a href="mailto:sal@emetrix.biz?subject=An email from salkabay.com">
+                  sal@emetrix.biz
+              </a>
+          </Fragment>
+      )
   },
     {
         id: "person",
@@ -24,7 +30,7 @@ export const data = [
             <Fragment>
                 <h3>About me</h3>
                 <p>
-                    I am an engineer and technologist with over 20 years of experience. In addition to being a technical authority. My skills are in strategy, architecture, development, systems integration and technical delivery.
+                    I am an engineer and technologist with over 20 years of experience. My expertise is focused on digital enablement using BPMN driven business process automation.
                 </p>
                 <p>
                     I live in Edinburgh&nbsp;UK. I have a PhD in Engineering and enjoy software engineering and clean design, running, cycling and gym work.
@@ -43,11 +49,11 @@ export const data = [
       <Fragment>
         <h3>User-centric approach</h3>
         <p>
-          I focus on the intersection of user need, client demand, and technical limitation. I prioritise user experience, high performance design and domain centric design.
+          I focus on the intersection of user need, client demand, and technical limitation. I prioritise user experience, high performance and domain centric design. My skills are in strategy, architecture, development and systems integration.
         </p>
         <h3>Technologies and approaches</h3>
         <p>
-          I work with my teams on modern architectures to deliver beautiful and efficient business process automation solutions using Java, React and Microservices. I implement component-driven solutions that are integrated and devops enabled - ensuring quality code, modularity, and maintainability.
+          I work with my teams on modern architectures to deliver beautiful and efficient business process automation solutions using Camunda, Java, React and Microservices. I implement component-driven solutions that are integrated and devops enabled - ensuring quality code, modularity, and maintainability.
         </p>
       </Fragment>
     )
@@ -56,7 +62,7 @@ export const data = [
     id: "leadership",
     title: (
       <Fragment>
-        <span>People</span> leadership
+        <span>People</span> Leadership
       </Fragment>
     ),
     content: (
@@ -65,7 +71,7 @@ export const data = [
         <p>
           I am a reliable and trusted member of any team. I earn the respect of my coworkers through leadership and enabling and empowering others to do their best. I am collaborative and results driven.
         </p>
-        <h3>Focused</h3>
+        <h3>Results driven</h3>
         <p>
           I thrive to unlock paralysis, provide clarity by simplifying complexity and enthuse others to overcome conflict. Every client is unique and every
             assignment has a set of challenges that requires fresh, agile and informed thinking.
