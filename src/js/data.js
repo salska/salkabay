@@ -13,9 +13,11 @@ export const data = [
               <p>
                  07871 6331198
               </p>
+              <p>
               <a href="mailto:sal@emetrix.biz?subject=An email from salkabay.com">
                   sal@emetrix.biz
               </a>
+              </p>
           </Fragment>
       )
   },
