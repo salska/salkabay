@@ -10,6 +10,7 @@ export const data = [
     ),
       content: (
           <Fragment>
+              <p><a href="https://docs.salkabay.com/" target="_blank">Blog</a></p>
               <p>
                  07871 6331198
               </p>
@@ -132,22 +133,22 @@ export const data = [
           <table border="0" cellPadding={5}>
           <tr>
           <td>
-              <a href="https://twitter.com/emetrix">
+              <a href="https://twitter.com/emetrix" target="_blank">
               <img src={ require('./twitter.png')} width={32} height={32}/>
               </a>
           </td>
           <td>
-              <a rel="me" href="https://www.youtube.com/channel/UCN1jxDRBU9tz1H3HyoARoaQ">
+              <a rel="me" href="https://www.youtube.com/channel/UCN1jxDRBU9tz1H3HyoARoaQ" target="_blank">
                   <img src={ require('./youtube.png')} width={32} height={32}/>
               </a>
           </td>
           <td>
-              <a href="https://github.com/salska">
+              <a href="https://github.com/salska" target="_blank">
                   <img src={ require('./github.png')} width={32} height={32}/>
               </a>
           </td>
           <td>
-              <a href="https://www.linkedin.com/in/salkabay/">
+              <a href="https://www.linkedin.com/in/salkabay/" target="_blank">
                   <img src={ require('./linkedin.png')} width={32} height={32}/>
               </a>
           </td>
