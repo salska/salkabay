@@ -127,29 +127,35 @@ export const data = [
     ),
     content: (
       <Fragment>
-        <ul>
-          <li>
-            <a href="https://twitter.com/emetrix">Twitter</a>
-          </li>
-          <li>
-            <a rel="me" href="https://www.youtube.com/channel/UCN1jxDRBU9tz1H3HyoARoaQ">
-              YouTube
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/salska">Github</a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/salkabay/">
-                <img src={ require('./li.jpeg')} width={33} height={40}/>
-            </a>
-          </li>
-          <li>
-            <a href="mailto:sal@emetrix.biz?subject=An email from salkabay.com">
-              Email me at sal@emetrix.biz
-            </a>
-          </li>
-        </ul>
+          <table border="0" cellPadding={5}>
+          <tr>
+          <td>
+              <a href="https://twitter.com/emetrix">
+              <img src={ require('./twitter.png')} width={32} height={32}/>
+              </a>
+          </td>
+          <td>
+              <a rel="me" href="https://www.youtube.com/channel/UCN1jxDRBU9tz1H3HyoARoaQ">
+                  <img src={ require('./youtube.png')} width={32} height={32}/>
+              </a>
+          </td>
+          <td>
+              <a href="https://github.com/salska">
+                  <img src={ require('./github.png')} width={32} height={32}/>
+              </a>
+          </td>
+          <td>
+              <a href="https://www.linkedin.com/in/salkabay/">
+                  <img src={ require('./linkedin.png')} width={32} height={32}/>
+              </a>
+          </td>
+          <td>
+              <a href="mailto:sal@emetrix.biz?subject=An email from salkabay.com">
+                  <img src={ require('./email.png')} width={32} height={32}/>
+              </a>
+          </td>
+          </tr>
+          </table>
       </Fragment>
     )
   }
