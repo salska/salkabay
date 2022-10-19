@@ -5,20 +5,24 @@
 
   &--name {
     &:first-line {
-      font-size: 9.4rem; // laura
+      font-size: 9.4rem; // sal
     }
-    font-size: 5.4rem; // kishimoto
+    font-size: 5.4rem; // kabay
+  }
+
+  &--blog {
+    span {
+      font-size: 6.65rem; // insights
+    }
   }
 
   &--person {
-    font-size: 5.85rem; // personal
     span {
-      font-size: 7.75rem; // details
+      font-size: 7.75rem; // about
     }
   }
 
   &--skills {
-    font-size: 5.3rem; // developer
     span {
       font-size: 9.6rem; // skills
     }
@@ -28,7 +32,6 @@
     span {
       font-size: 8.3rem; // people
     }
-    font-size: 5rem; // leadership
   }
 
   &--approach {
@@ -39,17 +42,12 @@
   }
 
   &--jobs {
-    font-size: 4.55rem; // approach
     span {
-      font-size: 7.08rem; // approach
+      font-size: 7.75rem; // approach
     }
   }
 
   &--contact {
-    font-size: 4.85rem; // approach
-    span {
-      word-spacing: initial;
-      font-size: 8.3rem; // approach
-    }
+    font-size: 6.75rem; // approach
   }
 }

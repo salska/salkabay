@@ -26,7 +26,7 @@ export const data = [
         id: "person",
         title: (
             <Fragment>
-                Personal <span>details</span>
+                <span>Details</span>
             </Fragment>
         ),
         content: (
@@ -45,7 +45,7 @@ export const data = [
     id: "skills",
     title: (
       <Fragment>
-        Developer <span>skills</span>
+        <span>skills</span>
       </Fragment>
     ),
     content: (
@@ -65,7 +65,7 @@ export const data = [
     id: "leadership",
     title: (
       <Fragment>
-        <span>People</span> Leadership
+        Leadership
       </Fragment>
     ),
     content: (
@@ -86,7 +86,7 @@ export const data = [
     id: "jobs",
     title: (
       <Fragment>
-        Employment <span>history</span>
+          <span>Clients</span>
       </Fragment>
     ),
     content: (
@@ -125,7 +125,7 @@ export const data = [
     id: "contact",
     title: (
       <Fragment>
-        Contact me <span>online</span>
+        Contact
       </Fragment>
     ),
     content: (
@@ -161,7 +161,19 @@ export const data = [
           </table>
       </Fragment>
     )
-  }
+  },
+    {
+        id: "blog",
+        title: (
+            <Fragment>
+                <a href="https://docs.salkabay.com/" target="_blank"><span>Insights</span></a>
+            </Fragment>
+        ),
+        content: (
+            <Fragment>
+            </Fragment>
+        )
+    }
 ];
 
 export default data;
