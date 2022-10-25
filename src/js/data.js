@@ -5,7 +5,7 @@ export const data = [
     id: "photo",
     title: (
       <Fragment>
-          <img src={ require('./salkabay.png')} width={173} height={173}/>
+          <img src={ require('./salkabay.png')} width={250} height={359}/>
       </Fragment>
     ),
       content: (
