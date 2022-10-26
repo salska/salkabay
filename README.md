@@ -1,6 +1,4 @@
-The personal site of Laura Kishimoto, published to [chicgeek.uk](https://www.chicgeek.uk).
-
-## Commands
+The personal site of sal kabay, published
 
 * `npm start`: Runs the app in the development mode and previews it in the browser.
 * `npm run build`: Builds the app for production to the `build` folder.
