@@ -54,9 +54,9 @@ export const data = [
         <p>
           I focus on the intersection of user need, client demand, and technical limitation. I prioritise user experience, high performance and domain centric design. My skills are in strategy, architecture, development and systems integration.
         </p>
-        <h3>Technologies and approaches</h3>
+        <h3>Technology core</h3>
         <p>
-          I work with my teams on modern architectures to deliver beautiful and efficient business process automation solutions using Camunda, Java, React and Microservices. I implement component-driven solutions that are integrated and devops enabled - ensuring quality code, modularity, and maintainability.
+          I work with modern architectures to deliver beautiful and efficient business process automation solutions using Camunda, Java, React and Microservices. I implement component-based solutions that are integrated and devops enabled - ensuring quality code, modularity, and maintainability.
         </p>
       </Fragment>
     )
@@ -70,14 +70,14 @@ export const data = [
     ),
     content: (
       <Fragment>
+          <h3>Results driven</h3>
+          <p>
+              I thrive to unlock paralysis, provide clarity by simplifying complexity and enthuse others to overcome conflict. Every client is unique and every
+              assignment has a set of challenges that requires fresh, agile and informed thinking.
+          </p>
         <h3>Collaborative</h3>
         <p>
-          I am a reliable and trusted member of any team. I earn the respect of my coworkers through leadership and enabling and empowering others to do their best. I am collaborative and results driven.
-        </p>
-        <h3>Results driven</h3>
-        <p>
-          I thrive to unlock paralysis, provide clarity by simplifying complexity and enthuse others to overcome conflict. Every client is unique and every
-            assignment has a set of challenges that requires fresh, agile and informed thinking.
+          I am a reliable and trusted member of any team. I earn the respect of my coworkers through leadership and by empowering others to do their best. I am collaborative and results driven.
         </p>
       </Fragment>
     )
