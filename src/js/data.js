@@ -138,7 +138,7 @@ export const data = [
               </a>
           </td>
           <td>
-              <a rel="me" href="https://www.youtube.com/channel/UCN1jxDRBU9tz1H3HyoARoaQ" target="_blank">
+              <a rel="me" href="https://www.youtube.com/@salkabay" target="_blank">
                   <img src={ require('./youtube.png')} width={32} height={32}/>
               </a>
           </td>
